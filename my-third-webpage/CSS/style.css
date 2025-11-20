@@ -1,0 +1,38 @@
+ * {
+   margin: 0;
+   padding: 0;
+   border: 1px solid red;
+   font-family: monospace;
+ }
+
+ div h2,
+ h1 {
+   background-color: lightsalmon;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   color: brown;
+ }
+
+ #text-paragraph {
+   font-size: 24px;
+   color: rgba(144, 91, 249, 0.601);
+ }
+
+ #text-paragraph span {
+   color: white;
+   font-size: 30px;
+ }
+
+ .mcq {
+   background-color: blue;
+   font-weight: bold;
+ }
+
+ .written {
+   background-color: chocolate;
+   font-weight: bold;
+ }
+
+ /* #end-headming{
+  color: gainsboro;
+  background-color: brown;
+ } */

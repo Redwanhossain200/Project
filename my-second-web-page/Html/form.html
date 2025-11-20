@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="This is a sample web page structure.">
+  <meta name="keywords" content="html, meta tags, web development, form , semantic">
+  <meta name="author" content="Redwan Hossain">
+  <link rel="shortcut icon" href="Images/download.png" type="image/x-icon">
+  <title>HTML forms</title>
+</head>
+
+<body style="background-color: lightgray;">
+  <h3 style="background-color: yellow;text-align: center;">Tour Registration Forms</h3>
+
+
+  <form action="https://www.w3schools.com/html/html_forms.asp"
+    style="background-color: white;width: 400px;height: auto;">
+    <fieldset>
+      <legend>Registration form</legend>
+
+      <label for="">First Name:</label> <br>
+      <input type="text" placeholder="Enter your name" required value="Redwan"> <br><br>
+
+      <label for="">Last Name:</label> <br>
+      <input type="text" placeholder="Enter your name" value="Hossain"> <br><br>
+
+      <label for="">Email:</label> <br>
+      <input type="email" placeholder="Enter your email"> <br><br>
+
+      <label for="">Password:</label> <br>
+      <input type="password" placeholder="Enter your password"> <br><br>
+
+      <label for="">Age:</label> <br>
+      <input type="number" placeholder="Enter your age"> <br><br>
+
+      <label for="">Birth Date:</label> <br>
+      <input type="date" placeholder="Enter your birth date"> <br><br>
+
+      <label for="">When you want to visit?</label> <br>
+      <input type="month"> <br><br>
+
+      <label for="">Enter your salary range:</label> <br>
+      <input type="range" name="Range" min="0" max="100"> <br><br>
+
+      <label for="">Enter your Gender: </label> <br>
+      <input type="radio" name="gender" value="male"> Male
+      <input type="radio" name="gender" value="female"> Female
+      <input type="radio" name="gender" value="other"> Other <br><br>
+
+      <label for="">Enter your favourite color:</label> <br>
+      <input type="color"> <br><br>
+
+      <textarea name="comments" id="comments" placeholder="Enter your comments here" cols="40" rows="10"></textarea>
+      <br><br>
+
+      <label for="">Enter your favourite colors:</label> <br>
+      <select name="colors" id="colors">
+        <option value="color" hidden>Select you color</option>
+        <option value="red">Red</option>
+        <option value="green">Green</option>
+        <option value="blue">Blue</option>
+        <option value="yellow">Yellow</option>
+      </select> <br><br>
+
+      <label for="">Enter your Image:</label> <br>
+      <input type="file" name="image" id="image" accept="image/*"> <br><br>
+
+
+      <button type="submit">Submit</button>
+
+
+
+    </fieldset>
+  </form>
+</body>
+
+</html>

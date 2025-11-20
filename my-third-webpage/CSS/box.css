@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(135deg, #002850, #020813, #FF5A00);
+  background-attachment: fixed;
+  backdrop-filter: blur(12px);
+}
+
+p {
+  font-size: large;
+  font-family: Perpetua Titling MT;
+  font-weight: 400;
+}
+
+.box {
+  width: 960px;
+  margin: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  margin-bottom: 140px;
+  border: 3px solid transparent;
+  border-image: linear-gradient(45deg, #0050C8, #FF5A00) 1;
+  border-radius: 20px;
+  box-shadow:
+    0 0 25px #0050C8,
+    0 0 25px #FF5A00,
+    0 0 40px rgba(0, 0, 0, 0.6);
+  text-shadow: 0 0 20px #0050C8;
+  padding-left: 40px;
+  padding-right: 60px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  color: whitesmoke;
+  background-image: url('../logo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  overflow: hidden;
+}
+
+.box-1 {
+  font-size: 64px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-bottom: 30px;
+}
+
+.btn {
+  margin-top: 50px;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+  box-shadow: 1px 0px 30px 1px whitesmoke;
+  transition: 0.5s ease-in-out;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
