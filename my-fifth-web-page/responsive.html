@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Interactive Web Development Learning Hub">
+  <meta name="keywords" content="html, css, javascript, web development, interactive, learning">
+  <meta name="author" content="Redwan Hossain">
+  <link rel="shortcut icon" href="html.png" type="image/x-icon">
+  <title>Media | CSS</title>
+  <style>
+    div {
+      background-color: coral;
+      padding: 40px;
+      font-size: 75px;
+    }
+
+    /* laptop device */
+    @media screen and (max-width:1200px) {
+      div {
+        background-color: green;
+        padding: 40px;
+        font-size: 63px;
+      }
+    }
+
+    /* Tablet device */
+    @media screen and (max-width:1024px) {
+      div {
+        background-color: tomato;
+        padding: 40px;
+        font-size: 42px;
+      }
+    }
+
+    /* Android device landscape*/
+    @media screen and (max-width:768px) {
+      div {
+        background-color: yellow;
+        padding: 40px;
+        font-size: 30px;
+      }
+    }
+
+    /* Android device portrait*/
+    @media screen and (max-width:568px) {
+      div {
+        background-color: aquamarine;
+        padding: 40px;
+        font-size: 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    this is a divs.We are learning media
+  </div>
+</body>
+
+</html>
