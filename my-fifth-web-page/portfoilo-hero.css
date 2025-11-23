@@ -207,3 +207,17 @@ body {
     text-align: center;
     padding: 60px 0;
 }
+
+/* Responsive */
+
+/* laptop device 1025-1200px */
+@media screen and (max-width:1200px) {}
+
+/* Tablet device 769-1024px*/
+@media screen and (max-width:1024px) {}
+
+/* Android device landscape 569-768px*/
+@media screen and (max-width:768px) {}
+
+/* Android device portrait 320px*/
+@media screen and (max-width:568px) {}
