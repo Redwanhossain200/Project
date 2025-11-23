@@ -23,6 +23,13 @@ p {
   /* Hero & Newsletter light orange/pink tint */
 }
 
+.text-muted {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #707070;
+}
+
 .container my-5 {
   margin-top: 3rem;
   margin-bottom: 3rem;
@@ -32,7 +39,7 @@ p {
   font-family: 'Poppins', sans-serif;
   font-size: 36px;
   font-weight: 500;
-  
+
 }
 
 .cat-watch {
@@ -134,4 +141,10 @@ p {
   font-size: 41px;
   font-weight: 500;
   color: #FF136F;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
 }
