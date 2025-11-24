@@ -1,4 +1,4 @@
- /* ====== BASE ====== */
+ /* BASE  */
  :root {
    --wrap-max: 1200px;
    --gap: 18px;
@@ -37,7 +37,7 @@
    margin-bottom: 1rem;
  }
 
- /* ===== NAVBAR ===== */
+ /* NAVBAR  */
  .nav {
    display: flex;
    justify-content: space-between;
@@ -78,7 +78,7 @@
    cursor: pointer;
  }
 
- /* ===== HERO ===== */
+ /* HERO  */
  .hero {
    background: var(--bg-soft);
    padding: 28px;
@@ -147,7 +147,7 @@
    border-radius: 10px;
  }
 
- /* ===== CATEGORIES ===== */
+ /* CATEGORIES  */
  .grid-3 {
    display: grid;
    grid-template-columns: repeat(3, 1fr);
@@ -194,7 +194,7 @@
    background: #4b7ee0;
  }
 
- /* ===== CARDS ===== */
+ /* CARDS  */
  .cards {
    display: grid;
    grid-template-columns: repeat(3, 1fr);
@@ -239,7 +239,7 @@
    margin-bottom: 10px;
  }
 
- /* ===== SUBSCRIBE ===== */
+ /* SUBSCRIBE  */
  .sub-wrap {
    background: var(--bg-soft);
    padding: 24px;
@@ -262,14 +262,14 @@
    border-radius: 8px;
  }
 
- /* ===== FOOTER ===== */
+ /* Footer  */
  footer {
    text-align: center;
    padding: 18px 0;
    color: #666;
  }
 
- /* ===== RESPONSIVE ===== */
+  /* RESPONSIVE  */
  @media (max-width: 992px) {
 
    .grid-3,
@@ -312,7 +312,7 @@
    }
  }
 
- /* ---------- FOOTER ---------- */
+  /* FOOTER  */
 
  .footer {
    background: #f4f4f4;
@@ -369,7 +369,7 @@
    margin-bottom: 8px;
  }
 
- /* ---------- Social Icons ---------- */
+  /* Social Icons  */
 
  .social-icons {
    display: flex;
