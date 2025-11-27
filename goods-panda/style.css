@@ -5,3 +5,24 @@
   font-family: "Poppins", sans-serif;
   /* font-family: "Inter", sans-serif; */
 }
+
+/* common class / typography */
+.container {
+  width: 78%;
+  margin: 0 auto;
+}
+
+#nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+#nav-container .logo img{
+width:100%;
+max-width: 148px;
+}
+#nav-container .menu img{
+width:100%;
+max-width: 48px;
+}
