@@ -33,3 +33,45 @@
   width: 100%;
   max-width: 48px;
 }
+
+#hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+  background-color: #FEEAE9;
+  padding: 40px;
+  border-radius: 20px;
+}
+
+.hero-content {
+  margin-bottom: 10px;
+}
+
+.hero-content h1 {
+  font-size: 44px;
+}
+
+.hero-content p {
+  color: #4E4E4E;
+  line-height: 26px;
+}
+
+.hero-content h2 {
+  color: #FF136F;
+  font-weight: 500;
+  font-size: 41px;
+}
+
+.hero-content button {
+  padding: 12px 28px;
+  border: none;
+  border-radius: 6px;
+  background-image: linear-gradient(to bottom, #FF589B, #FF136F);
+  color: white;
+  cursor: pointer;
+}
+.hero-image {
+  width: 100%;
+  max-width: 400px;
+}
