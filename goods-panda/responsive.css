@@ -1,14 +1,34 @@
 @media screen and (max-width:1200px) {
   .hero-image {
     width: 100%;
-    max-width: 400px;
+    max-width: 350px;
   }
 }
 
-@media screen and (max-width:992px) {}
+@media screen and (max-width:992px) {
+  #hero-container {
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+}
 
 @media screen and (max-width:640px) {
   .container {
     width: 98%;
+  }
+#hero-container{
+    padding: 10px;
+}
+  #hero-container img {
+    max-width: 290px;
+  }
+  .hero-content h1 {
+    font-size: 32px;
+  }
+  .hero-content h2 {
+    font-size: 28px;
   }
 }
