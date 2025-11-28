@@ -12,17 +12,24 @@
   margin: 0 auto;
 }
 
+#nav,
+#hero {
+  margin-bottom: 80px;
+}
+
 #nav-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 20px 0;
 }
-#nav-container .logo img{
-width:100%;
-max-width: 148px;
+
+#nav-container .logo img {
+  width: 100%;
+  max-width: 148px;
 }
-#nav-container .menu img{
-width:100%;
-max-width: 48px;
+
+#nav-container .menu img {
+  width: 100%;
+  max-width: 48px;
 }
