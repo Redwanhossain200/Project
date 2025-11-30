@@ -1,0 +1,42 @@
+* {
+  /* margin: 0;
+  padding: 0; */
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+
+}
+
+body {
+  background-color: black;
+  text-align: center;
+}
+
+/* Psudo class 
+
+.heading {
+  background-color: rebeccapurple;
+  color: white;
+}
+
+.heading:hover {
+  background-color: tomato;
+} */
+
+
+/* Position */
+.container {
+  border: 2px solid purple;
+  height: 300px;
+}
+
+.child-1 {
+  height: 100px;
+  width: 150px;
+  background-color: blueviolet;
+  padding: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
