@@ -1,6 +1,6 @@
 * {
-  /* margin: 0;
-  padding: 0; */
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
@@ -9,7 +9,7 @@
 }
 
 body {
-  background-color: black;
+  background-color: #00000090;
   text-align: center;
 }
 
@@ -27,16 +27,47 @@ body {
 
 /* Position */
 .container {
-  border: 2px solid purple;
-  height: 300px;
+  border: 3.5px solid #adff2f70;
+  border-radius: 7px;
+  box-shadow: 0 0 20px 2px#adff2f70;
+  height: 400px;
+  width: 500px;
+  margin: auto;
+  margin-top: 70px;
+  background-image: url(https://images.pexels.com/photos/807598/pexels-photo-807598.jpeg?_gl=1*stc7vk*_ga*MTgyNjI2ODk5My4xNzYyMDg2OTcx*_ga_8JE65Q40S6*czE3NjQ1NjE0NzgkbzIkZzAkdDE3NjQ1NjE0NzgkajYwJGwwJGgw);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  padding: 40px;
 }
 
 .child-1 {
-  height: 100px;
+  height: 50px;
   width: 150px;
-  background-color: blueviolet;
+  font-style: normal;
+  font-size: large;
+  background-color: grey;
   padding: 28px;
+  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: absolute;
+  top: 180px;
+  left: 170px;
+  cursor: pointer;
+  border-radius: 14px;
+  border: none;
+  box-shadow: 0 0 20px 2px white;
+  transition: all 0.7s ease-in;
+}
+
+.child-1:hover {
+  background-color: transparent;
+  color: whitesmoke;
+  border: none;
+  box-shadow: 0 0 10px 2px green;
+  transform: translateY(-5px);
+  /* Moves 50px up */
 }
