@@ -5,7 +5,6 @@
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: italic;
-
 }
 
 body {
@@ -161,4 +160,64 @@ body {
 .rotate:hover {
   transform: rotate(360deg);
   background-color: blueviolet;
+}
+
+.animation-box {
+  height: 200px;
+  width: 200px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: purple;
+  /* animation-name: my-animation;
+  animation-duration: 3s;
+  animation-delay: 0.5s;
+  animation-iteration-count: 2;
+  animation-fill-mode: forwards;
+  animation-direction: alternate-reverse;
+  animation-timing-function: linear; */
+
+  animation: my-animation 3s linear 1s infinite alternate-reverse;
+}
+
+@keyframes my-animation {
+  0% {
+    transform: scale(1);
+  }
+
+  20% {
+    background-color: white;
+  }
+
+  35% {
+    background-color: mediumvioletred;
+  }
+
+  70% {
+    background-color: coral;
+  }
+
+  100% {
+    transform: scale(0.5);
+    border-radius: 20px;
+    background-color: tomato;
+  }
+}
+
+/* Grid */
+.grid-container {
+  font-style: normal;
+  font-weight: bold;
+  display: grid;
+  height: 300px;
+  grid-template-columns: repeat(3, 50px);
+  gap: 5px;
+  /* justify-content: center;
+  align-items: center; */
+  place-content: center;
+}
+
+.item {
+  background-color: aqua;
+  padding: 5px;
 }
