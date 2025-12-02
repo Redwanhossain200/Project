@@ -5,10 +5,28 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tailwind Responsive</title>
+  <!-- Tailwind CSS CDN  -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
-<body>
+<body class="bg-slate-700 text-white">
+  <header class="bg-slate-900 flex justify-between items-center">
+    <img src="./images/idsjVbV8VY_1764684424808.png" alt="Logo" class="w-16 h-16">
 
+    <div class="group">
+      <button
+        class="bg-purple-500 px-3 py-1 rounded-md text-[24px] font-semibold hover:bg-white cursor-pointer hover:text-fuchsia-600 active:bg-red-500 active:text-white focus:bg-green-500">Menu
+        <span>▼</span>
+      </button>
+
+      <ul class="w-[200px] bg-slate-300 text-black rounded-md p-2 font-semibold space-y-2 group-hover:bg-red-500" style="visibility: hidden;">
+        <li class="bg-slate-400 p-2 rounded-md">Home</li>
+        <li class="bg-slate-400 p-2 rounded-md">About us</li>
+        <li class="bg-slate-400 p-2 rounded-md">Contact</li>
+        <li class="bg-slate-400 p-2 rounded-md">Services</li>
+      </ul>
+    </div>
+  </header>
 </body>
 
 </html>
