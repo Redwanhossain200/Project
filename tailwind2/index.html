@@ -13,13 +13,14 @@
   <header class="bg-slate-900 flex justify-between items-center">
     <img src="./images/idsjVbV8VY_1764684424808.png" alt="Logo" class="w-16 h-16">
 
-    <div class="group">
+    <div class="group relative">
       <button
         class="bg-purple-500 px-3 py-1 rounded-md text-[24px] font-semibold hover:bg-white cursor-pointer hover:text-fuchsia-600 active:bg-red-500 active:text-white focus:bg-green-500">Menu
         <span>▼</span>
       </button>
 
-      <ul class="w-[200px] bg-slate-300 text-black rounded-md p-2 font-semibold space-y-2 group-hover:bg-red-500" style="visibility: hidden;">
+      <ul
+        class="w-[200px] bg-slate-300 text-black rounded-md p-2 font-semibold space-y-2 absolute top-full -left-20 opacity-0 group-hover:opacity-100 text-center transition duration-500">
         <li class="bg-slate-400 p-2 rounded-md">Home</li>
         <li class="bg-slate-400 p-2 rounded-md">About us</li>
         <li class="bg-slate-400 p-2 rounded-md">Contact</li>
