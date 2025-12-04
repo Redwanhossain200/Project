@@ -9,8 +9,10 @@
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
-<body class="bg-slate-700 text-white">
-  <header class="bg-slate-900 flex justify-between items-center">
+<body class="bg-slate-700 text-white m-0 p-0">
+  <!-- Header Section  -->
+
+  <header class="bg-slate-900 flex justify-between items-center rounded-md">
     <img src="./images/idsjVbV8VY_1764684424808.png" alt="Logo" class="w-16 h-16">
 
     <div class="group relative">
@@ -28,6 +30,13 @@
       </ul>
     </div>
   </header>
+
+  <!-- Position -->
+
+  <div class="bg-black rounded-md p-5 mt-4 h-[700px] relative">
+    <div class="h-[200px] w-[200px] rounded-md overflow-hidden bg-green-500 absolute bottom-0 right-0">Absolute</div>
+    <div class="h-[200px] w-[200px] p-5 rounded-md overflow-hidden bg-purple-500 relative top-16 left-16">Relative</div>
+  </div>
 </body>
 
 </html>
