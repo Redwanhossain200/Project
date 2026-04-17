@@ -1,11 +1,11 @@
-@media screen and (max-width:1200px) {
+@media screen and (max-width: 1200px) {
   .hero-image {
     width: 100%;
     max-width: 350px;
   }
 }
 
-@media screen and (max-width:992px) {
+@media screen and (max-width: 992px) {
   #hero-container {
     text-align: center;
     flex-wrap: wrap;
@@ -15,13 +15,13 @@
   }
 }
 
-@media screen and (max-width:640px) {
+@media screen and (max-width: 640px) {
   .container {
     width: 98%;
   }
-#hero-container{
+  #hero-container {
     padding: 10px;
-}
+  }
   #hero-container img {
     max-width: 290px;
   }

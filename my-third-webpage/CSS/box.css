@@ -4,7 +4,7 @@
 }
 
 body {
-  background: linear-gradient(135deg, #002850, #020813, #FF5A00);
+  background: linear-gradient(135deg, #002850, #020813, #ff5a00);
   background-attachment: fixed;
   backdrop-filter: blur(12px);
 }
@@ -23,13 +23,13 @@ p {
   margin-top: 80px;
   margin-bottom: 140px;
   border: 3px solid transparent;
-  border-image: linear-gradient(45deg, #0050C8, #FF5A00) 1;
+  border-image: linear-gradient(45deg, #0050c8, #ff5a00) 1;
   border-radius: 20px;
   box-shadow:
-    0 0 25px #0050C8,
-    0 0 25px #FF5A00,
+    0 0 25px #0050c8,
+    0 0 25px #ff5a00,
     0 0 40px rgba(0, 0, 0, 0.6);
-  text-shadow: 0 0 20px #0050C8;
+  text-shadow: 0 0 20px #0050c8;
   padding-left: 40px;
   padding-right: 60px;
   padding-top: 50px;

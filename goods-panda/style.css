@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   /* font-family: "Inter", sans-serif; */
 }
 
@@ -39,7 +39,7 @@
   align-items: center;
   justify-content: space-between;
   gap: 60px;
-  background-color: #FEEAE9;
+  background-color: #feeae9;
   padding: 40px;
   border-radius: 20px;
 }
@@ -53,12 +53,12 @@
 }
 
 .hero-content p {
-  color: #4E4E4E;
+  color: #4e4e4e;
   line-height: 26px;
 }
 
 .hero-content h2 {
-  color: #FF136F;
+  color: #ff136f;
   font-weight: 500;
   font-size: 41px;
 }
@@ -67,7 +67,7 @@
   padding: 12px 28px;
   border: none;
   border-radius: 6px;
-  background-image: linear-gradient(to bottom, #FF589B, #FF136F);
+  background-image: linear-gradient(to bottom, #ff589b, #ff136f);
   color: white;
   cursor: pointer;
 }

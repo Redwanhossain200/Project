@@ -1,77 +1,79 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Interactive Web Development Learning Hub" />
+    <meta
+      name="keywords"
+      content="html, css, javascript, web development, interactive, learning" />
+    <meta name="author" content="Redwan Hossain" />
+    <link rel="shortcut icon" href="html.png" type="image/x-icon" />
+    <title>Responsiveness</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Interactive Web Development Learning Hub">
-  <meta name="keywords" content="html, css, javascript, web development, interactive, learning">
-  <meta name="author" content="Redwan Hossain">
-  <link rel="shortcut icon" href="html.png" type="image/x-icon">
-  <title>Responsiveness</title>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+      #card-box {
+        display: flex;
+        border: 2px solid red;
+        padding: 30px;
+        margin: 10px;
+        gap: 20px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+      }
 
-    #card-box {
-      display: flex;
-      border: 2px solid red;
-      padding: 30px;
-      margin: 10px;
-      gap: 20px;
-      justify-content: space-between;
-      flex-wrap: wrap;
-    }
+      #card-1 {
+        background-color: rgb(119, 101, 0);
+      }
 
-    #card-1 {
-      background-color: rgb(119, 101, 0);
-    }
+      #card-2 {
+        background-color: rgba(133, 0, 133, 0.704);
+      }
 
-    #card-2 {
-      background-color: rgba(133, 0, 133, 0.704);
-    }
+      #card-3 {
+        background-color: #ccff0080;
+        color: black;
+      }
 
-    #card-3 {
-      background-color: #ccff0080;
-      color: black;
-    }
+      #card-4 {
+        background-color: thistle;
+        color: black;
+      }
 
-    #card-4 {
-      background-color: thistle;
-      color: black;
-    }
+      .card {
+        background-color: goldenrod;
+        padding: 60px;
+        color: whitesmoke;
+      }
 
-    .card {
-      background-color: goldenrod;
-      padding: 60px;
-      color: whitesmoke;
-    }
-
-    /* 0-1000px
+      /* 0-1000px
     @media screen and (min-width:200px) and (max-width:500px) {
       #card-box {
         flex-direction: column-reverse;
         border: 2px solid green;
       } */
 
-    @media screen and (min-width:600px) {
-      #card-box {
-        background-color: yellow;
+      @media screen and (min-width: 600px) {
+        #card-box {
+          background-color: yellow;
+        }
       }
-    }
-  </style>
-</head>
+    </style>
+  </head>
 
-<body>
-  <div id="card-box">
-    <div id="card-1" class="card">Card-1</div>
-    <div id="card-2" class="card">Card-2</div>
-    <div id="card-3" class="card">Card-3</div>
-    <div id="card-4" class="card">Card-4</div>
-  </div>
-</body>
-
+  <body>
+    <div id="card-box">
+      <div id="card-1" class="card">Card-1</div>
+      <div id="card-2" class="card">Card-2</div>
+      <div id="card-3" class="card">Card-3</div>
+      <div id="card-4" class="card">Card-4</div>
+    </div>
+  </body>
 </html>

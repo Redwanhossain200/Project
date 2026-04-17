@@ -1,65 +1,74 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind Project</title>
+    <link rel="stylesheet" href="style.css" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tailwind Project</title>
-  <link rel="stylesheet" href="style.css">
+    <!-- Google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet" />
 
-  <!-- Google font  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-    rel="stylesheet">
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
-  <!-- Tailwind CDN -->
-  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- font awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+  </head>
 
-  <!-- font awesome CDN -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
+  <body>
+    <header class="bg-[#FFFBF0] relative">
+      <!-- navbar -->
+      <nav class="flex justify-between items-center container mx-auto py-4">
+        <img src="./Images/logo.png" alt="" class="w-[292px] h-10" />
+        <ul
+          class="items-center gap-2 font-semibold text-[#3C3C3C] hidden md:flex">
+          <li>Home</li>
+          <li>Products</li>
+          <li>About us</li>
+          <li>Contact us</li>
+        </ul>
+        <span class="block md:hidden">
+          <i class="fa-solid fa-bars"></i>
+        </span>
+      </nav>
 
-<body>
+      <!-- Banner -->
+      <section
+        class="min-h-[85vh] flex justify-between items-center gap-4 container mx-auto">
+        <div class="hidden md:block">
+          <h2
+            class="text-[80px] text-[#FABE4C] md:leading-[75px] xl:leading-[45px]">
+            Be the Penguins
+          </h2>
+          <h2 class="text-[80px] text-[#363958]">of Winter</h2>
+          <p class="text-[#3E3E3E]">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Laboriosam, maxime.
+          </p>
+          <button
+            class="rounded-[10px] button-linear-gradient p-3 mt-4 cursor-pointer">
+            <i class="fa-solid fa-cart-shopping"></i>Buy Now
+          </button>
+        </div>
 
-  <header class="bg-[#FFFBF0] relative">
+        <img src="./Images/model.png" alt="" />
+      </section>
 
-    <!-- navbar -->
-    <nav class="flex justify-between items-center container mx-auto py-4">
-      <img src="./Images/logo.png" alt="" class="w-[292px] h-10">
-      <ul class="items-center gap-2 font-semibold text-[#3C3C3C] hidden md:flex">
-        <li>Home</li>
-        <li>Products</li>
-        <li>About us</li>
-        <li>Contact us</li>
-      </ul>
-      <span class="block md:hidden">
-        <i class="fa-solid fa-bars"></i>
-      </span>
-    </nav>
-
-    <!-- Banner -->
-    <section class="min-h-[85vh] flex justify-between items-center gap-4 container mx-auto">
-      <div class="hidden md:block">
-        <h2 class="text-[80px] text-[#FABE4C] md:leading-[75px] xl:leading-[45px]">Be the Penguins</h2>
-        <h2 class="text-[80px] text-[#363958]">of Winter</h2>
-        <p class="text-[#3E3E3E]">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, maxime.</p>
-        <button class="rounded-[10px] button-linear-gradient p-3 mt-4 cursor-pointer"><i
-            class="fa-solid fa-cart-shopping"></i>Buy
-          Now</button>
-
-      </div>
-
-      <img src="./Images/model.png" alt="">
-    </section>
-
-    <!-- PNG IMG  -->
-    <img src="./Images/Group 33064.png" alt="" class="absolute top-0 left-[50%]">
-  </header>
-
-</body>
-
+      <!-- PNG IMG  -->
+      <img
+        src="./Images/Group 33064.png"
+        alt=""
+        class="absolute top-0 left-[50%]" />
+    </header>
+  </body>
 </html>
